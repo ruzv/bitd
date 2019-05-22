@@ -30,6 +30,7 @@ class NetVisual:
         for l in range(len(self.net.layers)):
             self.draw_layer(activations[l], m, l*200)
 
+
         pygame.display.update()
 
         end = False
